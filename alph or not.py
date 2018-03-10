@@ -1,7 +1,7 @@
-x=raw_input()
-if(x>='a'):
+a=raw_input()
+if(a>='a'):
     print"Alphabet"
-elif(x>='A'):
+elif(a>='A'):
     print"Alphabet"
 else:
     print"no"
