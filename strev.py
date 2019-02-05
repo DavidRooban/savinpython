@@ -1,5 +1,7 @@
-def reverse(string): 
-    string = string[::-1] 
-    return string 
-s = raw_input()
-print (reverse(s))
+def rev(st): 
+    st = st[::-1] 
+    return st
+s=raw_input()
+if len(s)>10000:
+  print("enter lesser lengthed string")
+print(rev(s))
