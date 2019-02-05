@@ -1,4 +1,4 @@
-n=int(input("enter the number:"))
+n=int(input())
 if n>100000:
     print("invalid input")
 elif n>0:
