@@ -4,4 +4,4 @@ if(a>='a'):
 elif(a>='A'):
     print"Alphabet"
 else:
-    print"no"
+  print"No"
