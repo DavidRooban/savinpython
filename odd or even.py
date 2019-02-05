@@ -1,7 +1,7 @@
-x=int(input("Enter an integer:"))
+x=int(input())
 if (x>100000):
-    print("invalid input")
+    print("invalid")
 elif((x%2)==0):
-    print("the number is even")
+    print("Even")
 else:
-    print("the number is odd")
+  print("Odd")
