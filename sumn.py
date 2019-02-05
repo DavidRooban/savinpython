@@ -1,6 +1,6 @@
-a=int(input())
-if (a<1 or (a%1)!=0):
+d=int(input())
+if (d<1 or (d%1)!=0):
   print("wrong input")
 else:
-  sum=a*(a+1)/2
+  sum=d*(d+1)/2
 print (sum)
