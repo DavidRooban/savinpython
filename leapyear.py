@@ -1,5 +1,5 @@
-yr=int(input("Enter year to be checked:"))
+yr=int(input())
 if(yr%4==0 and yr%100!=0 or yr%400==0):
-    print("The year is a leap year!")
+    print("yes")
 else:
-    print("The year isn't a leap year!")
+  print("no")
