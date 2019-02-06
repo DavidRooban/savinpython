@@ -8,8 +8,8 @@ def isPalindrome(s):
     return False
 s=str(input())
 ans = isPalindrome(s)
-if(int(s)>1000):
-    print("enter less than 1000")
+if(int(s)>10000):
+    print("enter less than 10000")
 elif ans == 1:
     print("yes")
 else:
