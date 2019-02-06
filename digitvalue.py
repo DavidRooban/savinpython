@@ -1,3 +1,3 @@
-n=str(input("enter an integer:"))
+n=str(input(""))
 x=len(n)
 print(x)
