@@ -6,12 +6,11 @@ def isPalindrome(s):
     if (s == rev):
         return True
     return False
-s=str(input("enter digit"))
+s=str(input())
 ans = isPalindrome(s)
 if(int(s)>1000):
     print("enter less than 1000")
 elif ans == 1:
-    print("Yes")
+    print("yes")
 else:
-    print("No")
-
+    print("no")
