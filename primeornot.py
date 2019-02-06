@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+num = int(input())
 if(num>1000):
     print("enter less than 1000")
 elif num > 1:
@@ -9,4 +9,4 @@ elif num > 1:
    else:
        print("yes")
 else:
-   print("no")
+  print("no")
