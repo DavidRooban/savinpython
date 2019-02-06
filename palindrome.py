@@ -13,4 +13,4 @@ if(int(s)>10000):
 elif ans == 1:
     print("yes")
 else:
-    print("no")
+  print("no")
