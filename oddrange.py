@@ -1,5 +1,5 @@
-num = int(input("Enter starting range: "))
-n=int(input("enter ending limit"))
+num = int(input())
+n=int(input())
 if(num>100000 or n>100000):
     print("enter less than 100000")
 else:
