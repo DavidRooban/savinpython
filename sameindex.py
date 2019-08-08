@@ -4,5 +4,8 @@ arr=list(map(int,input().split()))[:inp]
 for i in range(inp): 
   if arr[i] is i: 
     app.append(i)
-app.sort()
-print(*app)
+if (len(app)==0):
+  print("-1")
+else:
+  app.sort()
+  print(*app)
