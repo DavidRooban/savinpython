@@ -1,4 +1,4 @@
-n=int(input())
-a=list(map(int,input().split()))
-for i in range(0,n):
-    print(a[i],i)
+inp=int(input())
+array=list(map(int,input().split()))[:inp]
+for x in range(0,inp):
+    print(array[x],x)
