@@ -1,4 +1,4 @@
-n=int(input("enter size"))
+n=int(input())
+a=list(map(int,input().split()))
 for i in range(0,n):
-    a=input("enter element:")
-    print(a,i)
+    print(a[i],i)
