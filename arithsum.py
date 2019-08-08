@@ -1,5 +1,3 @@
-n=int(input("enter n-limit"))
-a=int(input("enter a-first term"))
-d=int(input("enter d-common diff"))
-num=(n/2)*((2*a)+(n-1)*d)
+n,a,d=map(int,input().split())
+num=int((n/2)*((2*a)+(n-1)*d))
 print(num)
